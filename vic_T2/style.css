@@ -1,0 +1,259 @@
+* {
+  /* outline: solid red 1px; */
+  font-weight: 400;
+  font-family: sans-serif;
+}
+body {
+  min-width: fit-content;
+  margin: 0;
+}
+
+/* header */
+header {
+  background-color: #535151;
+}
+.header_container {
+  font-size: 0;
+  width: 900px;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align-last: justify;
+}
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 4px;
+  font-size: 23px;
+}
+header nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+header nav a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+header a {
+  text-decoration: none;
+  color: #d8d8d8;
+  padding: 5px;
+  display: inline-block;
+}
+
+header a + a {
+  margin-left: 50px;
+}
+header a:hover {
+  color: #fff;
+}
+.shopbag {
+  display: inline-block;
+  width: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.shopbag img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+/* main */
+.banner {
+  position: relative;
+
+  background-image: url(./img/cover.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  height: 650px;
+}
+main h2 {
+  margin: 0;
+  font-size: 50px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+}
+.poster p {
+  margin: 0;
+  background-color: #e3e2e2;
+  text-align: center;
+  padding: 10px 0;
+}
+.banner_container {
+  margin: 0 auto;
+  width: 430px;
+
+  padding: 30px;
+
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+main button {
+  margin-top: 15px;
+  padding: 5px 60px;
+  color: #fff;
+  background-color: #303132;
+  font-family: "Raleway";
+  cursor: pointer;
+  border: 0;
+}
+.introduce_img {
+  width: 750px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  font-size: 0;
+}
+figure {
+  font-size: 0;
+  margin: 0;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+figure a {
+  display: inline-block;
+}
+figure + figure {
+  margin-left: 20px;
+}
+figcaption {
+  font-size: 16px;
+  background-color: #303132;
+  color: #d3d3d3;
+  line-height: 32px;
+}
+
+figcaption a {
+  text-decoration: none;
+  color: #d3d3d3;
+  display: block;
+}
+figcaption a:hover {
+  color: aqua;
+}
+figure img {
+  width: 100%;
+}
+main h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10px;
+  padding: 30px 0;
+}
+main h3::after {
+  content: "";
+  background-color: black;
+  display: block;
+  width: 50px;
+  height: 1px;
+  margin: 30px auto 0;
+}
+main h4 {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 10px;
+}
+
+/* footer */
+footer {
+  background-color: #545050;
+}
+.footer_container {
+  width: 740px;
+  margin: 0 auto;
+  padding: 30px 0 50px 0;
+}
+footer .Contact {
+  font-size: 0;
+}
+footer .social_media {
+  display: inline-block;
+  color: #fff;
+  text-align-last: justify;
+  vertical-align: top;
+}
+footer .social_media h5 {
+  margin: 0;
+  font-size: 16px;
+}
+footer .subscription {
+  display: inline-block;
+  margin: 0 11%;
+}
+footer .subscription h5 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+footer .subscription input {
+  color: #fff;
+  margin-top: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+}
+footer .personal_information {
+  display: inline-block;
+  vertical-align: top;
+}
+footer .social_media i {
+  font-size: 20px;
+  color: white;
+}
+footer .social_media i:hover {
+  color: aqua;
+}
+footer .social_media a {
+  display: inline-block;
+}
+footer button {
+  margin-top: 10px;
+  cursor: pointer;
+  float: right;
+  border: 0;
+}
+footer .personal_information h5 {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+}
+footer .personal_information a {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+footer .personal_information a:hover {
+  color: aqua;
+}
+.footer_content {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+.footer_content a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer_content a:hover {
+  color: aqua;
+}
+.copyright {
+  margin: 0;
+  display: inline-block;
+}
+.text_area {
+  background-color: inherit;
+  border: solid 1px #d2d2d2;
+}
